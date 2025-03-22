@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jstrenlop</title>
+</head>
+<body>
+    <h3 style="background-color: orange;" align = 'center'> PT Ứng dụng web - THIẾT KẾ FORM ĐƠN GIẢN</h3>
+    <form action="" method="get">
+        Họ và tên      <input type="text" name = 'ho_ten' maxlength="30" required align = 'center' ><br>
+        <br>
+        Email          <input type="email" name="email" id="email" ><br>
+        <br>
+        Số điện thoại  <input type="text" required><br>
+        <br>
+        Quê quán <select name="thanh_pho">
+            <option value = 'hung_yen' selected>Hưng Yên</option>
+            <option value ='ha_noi' selected>Hà Nội</option>
+            <option value ='ho_chi_minh' selected>TP Hồ Chí Minh</option>
+            <option value =''selected>--Chọn thành phố---</option>
+        </select>
+        <br><br>
+        Giới tính <input type="radio" id="g1" value = 'nam'/> Nam
+                  <input type="radio" id="g1" value = 'nu'/> Nữ
+        <br><br>
+        Kỹ Năng <input type="checkbox" id="ky_nang" value="hmtl"/>HTML
+
+        <input type="checkbox" id="ky_nang" value="css"/>CSS
+        <input type="checkbox" id="ky_nang" value="js"/>JS
+        <input type="checkbox" id="ky_nang" value="bootstrap"/>BOOTSTRAP
+        <br><br>
+        Ngày sinh <input type="date" name="dob" id="dob"/><br><br>
+        Giới thiệu bản thân <br>
+                <textarea name="gioithieu" cols="30" rows="5" ></textarea>
+        <br>
+
+
+
+
+        
+    </form>
+    <p style="background-color: orange;" align = 'center'><input type="submit" name="submit" value="Sumit"/> 
+        <input type="reset" name="reset" value="reset"/></P>
+
+    
+</body>
+</html>
