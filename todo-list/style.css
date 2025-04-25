@@ -1,0 +1,69 @@
+body {
+    margin: 40px;
+    background-color:#f6fc74 ;
+}
+
+ul {
+    padding-left: 20px;
+}
+li {
+    margin: 8px 0;
+    list-style: none;
+}
+#title {
+    color:  #2c3e50;
+    text-align: center;
+}
+.todo-list {
+    border: 2px dashed orange ;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+    
+    
+    
+}
+.morning, .afternoon, .evening {
+    font-size: 18px;
+}
+.important.morning {
+    background-color:#f39c12;
+    font-weight: bold;
+}
+.important.afternoon {
+    background-color:#f39c12;
+    font-weight: bold;
+    
+}
+.important.evening {
+    background-color:#f39c12;
+    font-weight: bold;
+}
+.afternoon {
+    background-color: #fdebd0;
+}
+[class~="evening"] {
+    background-color:#87f5f5;
+}
+ul > li {
+    margin-left: 10px;
+}
+li:hover{
+    color: #f003fc;
+}
+li:hover::after {
+    content: "✅ ";
+    
+    
+}
+li:nth-child(odd) {
+    background-color: #f6fc74;
+}
+.note[data-type="reminder"] {
+    margin-top: 15px;
+    color: green;
+    text-align: center;
+    
+}
+
